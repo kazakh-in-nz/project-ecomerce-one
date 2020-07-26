@@ -3,6 +3,7 @@
 body {
   margin: 0;
   padding: 0%;
+  min-width: 360px;
 }
 
 /* common header styles */
@@ -10,7 +11,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  widows: 100%;
   height: 84px;
   padding: 0 16px;
 }
@@ -19,9 +19,10 @@ header {
   font-size: 24px !important;
 }
 
-.header-text {
+.signs {
   font-family: 'Montserrat', sans-serif;
   font-size: 24px;
+  color: white;
 }
 
 /* mobile header only visible on phones */
@@ -33,8 +34,8 @@ header {
   letter-spacing: 5px;
 }
 
-.logo {
-  color: #f7ffff;
+.jeans {
+  color: black;
 }
 
 .fa-bars {
@@ -44,4 +45,79 @@ header {
 /* main header visible on all devices */
 .fa-shopping-cart {
   margin-right: 24px !important;
+}
+
+/* main */
+/* shop now */
+.shop-now {
+  position: relative;
+  margin: 0px 16px;
+}
+
+.shop-now img {
+  width: 100%;
+}
+
+.wrapper-shop-now {
+  position: absolute;
+  top: 0px;
+  padding-top: 24px;
+  padding-left: 5%;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-arrival {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.collection {
+  display: none;
+}
+
+.shop-now a {
+  text-decoration: none;
+  background-color: black;
+  width: 110px;
+  padding: 12px 24px;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background-color: black;
+  color: white;
+}
+
+footer p {
+  font-size: 15px;
+}
+
+/* ************************ */
+/* ********* media ******** */
+/* ************************ */
+
+@media only screen and (min-width: 601px) {
+  .new-arrival {
+    font-size: 64px;
+  }
+
+  .collection {
+    display: block;
+    font-size: 36px;
+    margin: 10px 0;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .mobile-header {
+    display: none;
+    background-color: black;
+  }
 }
