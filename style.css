@@ -1,32 +1,47 @@
-/* default design is mobile first*/
+/* DEFAULT IS MOBILE FIRST */
 
 body {
   margin: 0;
   padding: 0%;
 }
 
-.mobile-header {
+/* common header styles */
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   widows: 100%;
   height: 84px;
+  padding: 0 16px;
+}
+
+.fa {
+  font-size: 24px !important;
+}
+
+.header-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+}
+
+/* mobile header only visible on phones */
+.mobile-header {
   background-color: black;
 }
 
 .logo {
-  color: #f7ffff;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 24px;
   letter-spacing: 5px;
-  margin-left: 5%;
 }
 
-.hamburger-menu {
-  margin-right: 5%;
+.logo {
+  color: #f7ffff;
 }
 
 .fa-bars {
   color: white;
-  font-size: 24px !important;
+}
+
+/* main header visible on all devices */
+.fa-shopping-cart {
+  margin-right: 24px !important;
 }
