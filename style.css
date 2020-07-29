@@ -170,6 +170,7 @@ footer p {
 
 .item-img-wrapper {
   position: relative;
+  font-size: 15px;
 }
 
 .btn-buy-now {
@@ -190,8 +191,9 @@ footer p {
   font-size: 15px;
 }
 
-.item-img-wrapper img:hover + .btn-buy-now{
+.item-img-wrapper img:hover + .btn-buy-now {
   display: inline-block;
+  font-size: 15px;
 }
 
 .btn-buy-now:hover {
@@ -199,4 +201,11 @@ footer p {
   color: black;
   background: lightgrey;
   cursor: pointer;
+  font-size: 15px;
 }
+
+.item-img-wrapper .btn-buy-now .fa-shopping-cart {
+  font-size: 15px !important;
+}
+
+
