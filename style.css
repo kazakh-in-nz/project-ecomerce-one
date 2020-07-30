@@ -121,3 +121,42 @@ footer p {
     background-color: black;
   }
 }
+
+/* --Contact information--/ Begaiym */
+
+.contact, .about, .store{
+  display: inline-block;
+}
+
+aside{
+background-color: rgb(238, 227, 227);
+
+}
+
+ul {
+  list-style: none;
+}
+
+.store, .fa {
+  font-size: 12px !important;
+}
+
+.form-wrapper {
+  display: inline-block;
+  width: 30%;
+  margin: 0;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: finish;
+}
+form input{
+  width: 25%;
+  margin: 10px 0px;
+}
+
+form input[type="submit"] {
+  font-size: 25px;
+}
