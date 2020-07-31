@@ -285,3 +285,32 @@ form input {
 form input[type='submit'] {
   font-size: 25px;
 }
+
+/*Umut Muratbekova*/
+.container{
+  background-color: black;
+}
+.black {
+  text-decoration: none;
+  margin: 30px 20px 30px 20px;
+  padding: 50px 10px 40px 10px;
+}
+h1 {
+  color: white;
+  font-size: 55px;
+}
+p {
+color: white;
+font-size: 27px !important;
+}
+.button {
+background-color: #f44336;
+color: white;
+padding: 8px 18px;
+border: none;  
+}
+.email {
+  width: 100%;
+  font: inherit; 
+  margin: 0;
+}
