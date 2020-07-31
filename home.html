@@ -10,41 +10,62 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
     <!-- google fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
       rel="stylesheet"
     />
   </head>
-
   <body>
-    <!-- header -->
-    <header class="mobile-header">
-      <div class="signs logo">LOGO</div>
-      <div class="hamburger-menu">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-      </div>
-    </header>
-
-    <header class="main-header">
-      <div class="signs jeans">Jeans</div>
-      <div class="cart-seach-icon">
-        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-        <i class="fa fa-search" aria-hidden="true"></i>
-      </div>
-    </header>
-
+   
     <!-- side bar -->
-    <aside>
-      <!-- Place for Rustam's code -->
-    </aside>
+      <aside class="aside">
+        <h4 class="logo">Seytech</h4>
+        <ul class="menu">
+          <li><a href="#">Shirts</a></li>
+          <li><a href="#">Dresses</a></li>
+          <li class="submenu"><a href="#">
+            <label for="jeans">Jeans</label>
+            <select name="jeans" id="jeans">
+              <option value="ripped">Ripped</option>
+              <option value="blue">Blue</option>
+              <option value="grey">Greey</option>
+              <option value="white">White</option>
+            </select>
+          </a></li>
+          <li><a href="#">Jackets</a></li>
+          <li><a href="#">Gymwear</a></li>
+          <li><a href="#">Blazers</a></li>
+          <li><a href="#">Shoes</a></li>
+          <li>
+          </li>
+          <div id="asidefooter">
+            <!-- <ul class="menuinfo"> -->
+              <li id="contact">Contact</li>
+              <li id="news">Newsletter</li>
+              <li id="subs">Subscribe</li>
+            <!-- </ul> -->
+          </div>
+          </ul>
+          
+          
+      </aside>
+<div>
+   <!-- header -->
+   <header class="mobile-header">
+    <div class="signs logo">LOGO</div>
+    <div class="hamburger-menu">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+  </header>
+
+  <header class="main-header">
+    <div class="signs jeans">Jeans</div>
+    <div class="cart-seach-icon">
+      <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+      <i class="fa fa-search" aria-hidden="true"></i>
+    </div>
+  </header>
 
     <!-- main -->
     <main>
@@ -62,206 +83,13 @@
       </section>
 
       <!-- jeans models and prices -->
-      <p class="items-count">8 items</p>
-      <section class="items">
-        <div class="item">
-          <div class="item-img-wrapper">
-            <img
-              src="http://learn.seytech.co/assets/slides/html-css/practice-projects/e-commerce/answer/assets/jeans1.jpg"
-              alt="ripped skinny jeans"
-            />
-          </div>
-          <p>
-            Ripped Skinny Jeans
-            <br />
-            <b>$24.99</b>
-          </p>
-        </div>
-        <div class="item">
-          <div class="item-img-wrapper">
-            <img
-              src="http://learn.seytech.co/assets/slides/html-css/practice-projects/e-commerce/answer/assets/jeans2.jpg"
-              alt="mega ripped jeans"
-            />
-            <button class="btn-buy-now">
-              Buy now <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-            </button>
-          </div>
-          <span class="item-top-left">New</span>
-          <p>
-            Mega Ripped Jeans
-            <br />
-            <b>$19.99</b>
-          </p>
-        </div>
-        <div class="item">
-          <div class="item-img-wrapper">
-            <img
-              src="http://learn.seytech.co/assets/slides/html-css/practice-projects/e-commerce/answer/assets/jeans3.jpg"
-              alt="washed skinny jeans"
-            />
-          </div>
-          <p>
-            Washed Skinny Jeans
-            <br />
-            <b>$20.50</b>
-          </p>
-        </div>
-        <div class="item">
-          <div class="item-img-wrapper">
-            <img
-              src="http://learn.seytech.co/assets/slides/html-css/practice-projects/e-commerce/answer/assets/jeans4.jpg"
-              alt="vintage skinny jeans"
-            />
-          </div>
-          <p>
-            Vintage Skinny Jeans
-            <br />
-            <b>$14.99</b>
-          </p>
-        </div>
-        <div class="item">
-          <div class="item-img-wrapper">
-            <img
-              src="http://learn.seytech.co/assets/slides/html-css/practice-projects/e-commerce/answer/assets/jeans2.jpg"
-              alt="ripped skinny jeans"
-            />
-          </div>
-          <p>
-            Mega Ripped Jeans
-            <br />
-            <b>$19.99</b>
-          </p>
-        </div>
-        <div class="item">
-          <div class="item-img-wrapper">
-            <img
-              src="http://learn.seytech.co/assets/slides/html-css/practice-projects/e-commerce/answer/assets/jeans3.jpg"
-              alt="washed skinny jeans"
-            />
-          </div>
-          <p>
-            Washed Skinny Jeans
-            <br />
-            <b>$20.50</b>
-          </p>
-        </div>
-        <div class="item">
-          <div class="item-img-wrapper">
-            <img
-              src="http://learn.seytech.co/assets/slides/html-css/practice-projects/e-commerce/answer/assets/jeans4.jpg"
-              alt="vintage skinny jeans"
-            />
-            <button class="btn-buy-now">
-              Buy now <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-            </button>
-          </div>
-          <span class="item-top-left">Sale</span>
-          <p>
-            Vintage Skinny Jeans
-            <br />
-            <b>$14.99</b>
-          </p>
-        </div>
-        <div class="item">
-          <div class="item-img-wrapper">
-            <img
-              src="http://learn.seytech.co/assets/slides/html-css/practice-projects/e-commerce/answer/assets/jeans1.jpg"
-              alt="ripped skinny jeans"
-            />
-          </div>
-          <p>
-            Ripped Skinny Jeans
-            <br />
-            <b>$24.99</b>
-          </p>
-        </div>
-      </section>
+      <section></section>
 
       <!-- email contact -->
-      <section>
-        <!-- Place for Umut's code -->
-      </section>
+      <section></section>
 
       <!-- contact information -->
-      <section class="contact-info">
-        <!-- contact form -->
-        <div class="contact">
-          <h3>Contact</h3>
-          <p>Questions? Go ahead.</p>
-          <form action="#">
-            <input
-              class="in-put box"
-              type="text"
-              id="name"
-              placeholder="Name"
-              required
-            />
-            <input
-              class="in-put box"
-              type="email"
-              id="email"
-              placeholder="Email"
-              required
-            />
-            <input
-              class="in-put box"
-              type="text"
-              id="subject"
-              placeholder="Subject"
-            />
-            <input
-              class="in-put box"
-              type="text"
-              id="message"
-              placeholder="Message"
-              required
-            />
-            <input class="in-put button" type="submit" id="submit" required />
-          </form>
-        </div>
-
-        <!-- about -->
-        <div class="about">
-          <h3>About</h3>
-          <ul>
-            <li><a href="#about-us.html">About us</a></li>
-            <li>
-              <a href="#job-vacancy.html" target="_blank">We're hiring</a>
-            </li>
-            <li><a href="#support.html" target="_blank">Support</a></li>
-            <li><a href="#stores.html" target="_blank">Find store</a></li>
-            <li><a href="#shipment.html">Shipment</a></li>
-            <li><a href="#payment.html" target="_blank">Payment</a></li>
-            <li><a href="#giftcards.html" target="_blank">Gift card</a></li>
-            <li><a href="#return" target="_blank">Return</a></li>
-            <li><a href="#help.html">Help</a></li>
-          </ul>
-        </div>
-
-        <!-- store details -->
-        <div class="store">
-          <h3>Store</h3>
-          <div class="details">
-            <div><i class="fa fa-map-marker"></i> Company Name</div>
-            <div><i class="fa fa-phone"></i> 0044123123</div>
-            <div><i class="fa fa-envelope"></i> ex@mail.com</div>
-          </div>
-          <h3>We Accept</h3>
-          <div class="payment">
-            <div><i class="fa fa-cc-amex"></i> Amex</div>
-            <div><i class="fa fa-credit-card"></i> Credit Card</div>
-            <div class="social-web-icons">
-              <a href="#"><i class="fab fa-facebook-square"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-              <a href="#"><i class="fab fa-snapchat"></i></a>
-              <a href="#"><i class="fab fa-pinterest-p"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-linkedin"></i></a>
-            </div>
-          </div>
-        </div>
-      </section>
+      <section></section>
     </main>
 
     <!-- footer -->
@@ -270,5 +98,7 @@
         Powered by <a class="signs" href="#team-asel">team Asel</a>
       </div>
     </footer>
+  </div>
+
   </body>
 </html>
