@@ -233,7 +233,7 @@
           <!-- contact form -->
           <div class="contact">
             <h3>Contact</h3>
-            <p>Questions? Go ahead.</p>
+            <p class="about-us-contact-list">Questions? Go ahead.</p>
             <form action="#">
               <input
                 class="in-put box"
@@ -269,8 +269,10 @@
           <!-- about -->
           <div class="about">
             <h3>About</h3>
-            <ul>
-              <li><a href="#about-us.html">About us</a></li>
+            <ul class="about-list">
+              <li class="about-us-contact-list">
+                <a href="#about-us.html">About us</a>
+              </li>
               <li>
                 <a href="#job-vacancy.html" target="_blank">We're hiring</a>
               </li>
@@ -288,14 +290,18 @@
           <div class="store">
             <h3>Store</h3>
             <div class="details">
-              <div><i class="fa fa-map-marker"></i> Company Name</div>
+              <div class="about-us-contact-list">
+                <i class="fa fa-map-marker"></i> Company Name
+              </div>
               <div><i class="fa fa-phone"></i> 0044123123</div>
               <div><i class="fa fa-envelope"></i> ex@mail.com</div>
             </div>
             <h3>We Accept</h3>
-            <div class="payment">
-              <div><i class="fa fa-cc-amex"></i> Amex</div>
-              <div><i class="fa fa-credit-card"></i> Credit Card</div>
+            <div class="payment-web-social-icon-wrapper">
+              <div class="payment">
+                <div><i class="fa fa-cc-amex"></i> Amex</div>
+                <div><i class="fa fa-credit-card"></i> Credit Card</div>
+              </div>
               <div class="social-web-icons">
                 <a href="#"><i class="fab fa-facebook-square"></i></a>
                 <a href="#"><i class="fab fa-instagram"></i></a>
@@ -326,9 +332,6 @@
       function closeNav() {
         document.getElementById('sidenav-id').style.width = '0'
       }
-
-      var coll = document.getElementsByClassName('collapsible')
-      var i
 
       var coll = document.getElementsByClassName('collapsible')
       var i

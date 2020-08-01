@@ -361,10 +361,37 @@ footer p {
   margin: 5px 0;
 }
 
-ul {
+.about-list {
   list-style: none;
   text-align: center;
   padding: 0;
+  margin: 0;
+}
+
+.about-list li {
+  margin: 18px 0px;
+}
+
+.about a {
+  color: black;
+}
+
+.about a:hover {
+  color: gray;
+}
+
+.store {
+  display: flex;
+  align-items: center;
+}
+
+.details div,
+.payment div {
+  margin: 15px 0px;
+}
+
+.about-us-contact-list {
+  margin-top: 0 !important;
 }
 
 .store .fa {
