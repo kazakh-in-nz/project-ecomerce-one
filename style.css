@@ -275,6 +275,7 @@ footer p {
   border: 0;
   height: auto;
 }
+
 .item-top-left {
   display: inline-block;
   position: absolute;
@@ -283,6 +284,13 @@ footer p {
   padding: 0 8px 0 18px;
   background: black;
   color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .item {
+    flex: 0 1 calc(50% - 32px);
+    margin: 0 16px;
+  }
 }
 
 .item-img-wrapper {
