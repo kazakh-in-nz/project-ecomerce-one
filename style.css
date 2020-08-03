@@ -177,17 +177,35 @@ footer p {
   background-color: #cccccc;
 }
 
-.collapsible {
-  cursor: pointer;
-  margin: 0;
+.dropdown-content {
+  display: none;
+  min-width: 180px;
+  z-index: 1;
+  padding-left: 20px;
+  margin: 0px 10px;
+  padding-top: 0px;
 }
 
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: white;
-  font-size: 16px;
+.dropdown-content a {
+  color: black;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+  margin-top: 0px;
+  font-size: 15px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#skinny {
+  padding-top: 0px;
+  margin-top: 0px;
 }
 
 /* ************************ */
@@ -227,11 +245,6 @@ footer p {
 
   .content-wrapper {
     width: calc(100%-250px);
-  }
-
-  .item {
-    flex: 0 1 calc(50% - 32px);
-    margin: 0 16px;
   }
 }
 
@@ -441,19 +454,18 @@ form input[type='submit'] {
 .container {
   background-color: black;
 }
+
 .black {
   text-decoration: none;
   margin: 30px 20px 30px 20px;
   padding: 50px 10px 40px 10px;
 }
+
 h1 {
   color: white;
   font-size: 55px;
 }
-/* p {
-  color: white;
-  font-size: 27px !important;
-} */
+
 .button {
   background-color: #f44336;
   color: white;
