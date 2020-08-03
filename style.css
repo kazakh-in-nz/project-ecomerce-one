@@ -345,7 +345,7 @@ footer p {
 
 .store,
 .about {
-  width: calc(100% / 2);
+  width: 50%;
 }
 
 .store {
@@ -522,12 +522,6 @@ h1 {
 
   .content-wrapper {
     width: calc(100%-250px);
-  }
-
-  .contact,
-  .about,
-  .store {
-    width: calc(100% / 3);
   }
 
   .contact-info {
