@@ -354,11 +354,19 @@ footer p {
   align-items: flex-start;
 }
 
-.box,
-.button {
-  width: 100%;
-  padding: 10px 0;
+.box {
+  width: 187%;
+  padding: 8px;
   margin: 5px 0;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+}
+.button {
+  width: 200%;
+  padding: 8px;
+  margin: 5px 0;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .about-list {
@@ -370,14 +378,6 @@ footer p {
 
 .about-list li {
   margin: 18px 0px;
-}
-
-.about a {
-  color: black;
-}
-
-.about a:hover {
-  color: gray;
 }
 
 .store {
@@ -429,7 +429,6 @@ form input[type='submit'] {
   font-family: "Montserrat", sans-serif;
   color: #fff;
   background-color: black;
-  padding: 8px 16px;
   width: 200%;
 }
 form input[type='submit']:hover {
@@ -437,7 +436,6 @@ form input[type='submit']:hover {
   font-family: "Montserrat", sans-serif;
   color: black;
   background-color: lightgrey;
-  padding: 8px 16px;
   width: 200%;
 }
 
@@ -464,7 +462,7 @@ h1 {
 .email {
  padding: 8px;
  background-color: #fff;
-width: 98%;
+ width: 98%;
  height: 40px;
 }
 .button1 {
