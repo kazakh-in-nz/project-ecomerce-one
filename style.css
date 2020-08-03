@@ -376,11 +376,19 @@ footer p {
   align-items: flex-start;
 }
 
-.box,
-.button {
-  width: 100%;
-  padding: 10px 0;
+.box {
+  width: 187%;
+  padding: 8px;
   margin: 5px 0;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+}
+.button {
+  width: 200%;
+  padding: 8px;
+  margin: 5px 0;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .about-list {
@@ -392,14 +400,6 @@ footer p {
 
 .about-list li {
   margin: 18px 0px;
-}
-
-.about a {
-  color: black;
-}
-
-.about a:hover {
-  color: gray;
 }
 
 .store {
@@ -447,7 +447,18 @@ form input {
 }
 
 form input[type='submit'] {
-  font-size: 25px;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  background-color: black;
+  width: 200%;
+}
+form input[type='submit']:hover {
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  background-color: lightgrey;
+  width: 200%;
 }
 
 /*Umut Muratbekova*/
@@ -455,25 +466,46 @@ form input[type='submit'] {
   background-color: black;
 }
 
-.black {
-  text-decoration: none;
-  margin: 30px 20px 30px 20px;
-  padding: 50px 10px 40px 10px;
+.c2 {
+  font-size: 15px "Monserat", sans-serif;
+  padding: 32px 16px;
 }
 
 h1 {
-  color: white;
-  font-size: 55px;
+  color: #ffff;
+  font-family: "Monserrat", sans-serif;
+  font-size: 36px;
+  margin: 10px 0px;
 }
 
-.button {
-  background-color: #f44336;
+.c2 p {
   color: white;
-  padding: 8px 18px;
-  border: none;
-}
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  margin: 15px 0px;
+} 
 .email {
-  width: 100%;
-  font: inherit;
-  margin: 0;
+ padding: 8px;
+ background-color: #fff;
+ width: 98%;
+ height: 40px;
+}
+.button1 {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  padding: 8px 16px;
+  background-color: #f44336;
+  color: #fff;
+  width: 15%;
+  height: 45px;
+}
+
+.button1:hover {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  padding: 8px 16px;
+  background-color: lightgrey;
+  color: #000000;
+  width: 15%;
+  height: 45px;
 }
