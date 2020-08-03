@@ -73,8 +73,8 @@
       <header class="main-header">
         <div class="signs jeans">Jeans</div>
         <div class="cart-seach-icon">
-          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-          <i class="fa fa-search" aria-hidden="true"></i>
+          <a href="#shopping-cart" class="shopping-cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+          <a href="#search-menu" class="search-menu"><i class="fa fa-search" aria-hidden="true"></i></a> 
         </div>
       </header>
 
@@ -238,7 +238,7 @@
           <div class="contact">
             <h3>Contact</h3>
             <p class="first-list-element-info">Questions? Go ahead.</p>
-            <form action="#">
+            <form action="#" method="post" id="contact-form">
               <input
                 class="in-put box"
                 type="text"
@@ -259,14 +259,13 @@
                 id="subject"
                 placeholder="Subject"
               />
-              <input
+              <textarea 
                 class="in-put box"
-                type="text"
                 id="message"
                 placeholder="Message"
                 required
-              />
-              <input class="button" type="submit" id="submit" required />
+              ></textarea>
+              <input class="button" type="submit" form="contact-form" value="Submit"/>
             </form>
           </div>
 
