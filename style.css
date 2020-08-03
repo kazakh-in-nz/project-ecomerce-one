@@ -518,16 +518,11 @@ h1 {
   padding: 8px 16px;
   background-color: #f44336;
   color: #fff;
-  width: 15%;
+  width: 105px;
   height: 45px;
 }
 
 .button1:hover {
-  font-size: 15px;
-  font-family: 'Montserrat', sans-serif;
-  padding: 8px 16px;
   background-color: lightgrey;
   color: #000000;
-  width: 15%;
-  height: 45px;
 }
