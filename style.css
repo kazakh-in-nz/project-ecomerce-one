@@ -8,6 +8,7 @@ body {
 
 .content-wrapper {
   width: 100%;
+  min-width: 320px;
 }
 
 /* common header styles */
@@ -176,17 +177,35 @@ footer p {
   background-color: #cccccc;
 }
 
-.collapsible {
-  cursor: pointer;
-  margin: 0;
+.dropdown-content {
+  display: none;
+  min-width: 180px;
+  z-index: 1;
+  padding-left: 20px;
+  margin: 0px 10px;
+  padding-top: 0px;
 }
 
-.content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: white;
-  font-size: 16px;
+.dropdown-content a {
+  color: black;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+  margin-top: 0px;
+  font-size: 15px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#skinny {
+  padding-top: 0px;
+  margin-top: 0px;
 }
 
 /* ************************ */
@@ -226,11 +245,6 @@ footer p {
 
   .content-wrapper {
     width: calc(100%-250px);
-  }
-
-  .item {
-    flex: 0 1 calc(50% - 32px);
-    margin: 0 16px;
   }
 }
 
@@ -275,6 +289,7 @@ footer p {
   border: 0;
   height: auto;
 }
+
 .item-top-left {
   display: inline-block;
   position: absolute;
@@ -283,6 +298,13 @@ footer p {
   padding: 0 8px 0 18px;
   background: black;
   color: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .item {
+    flex: 0 1 calc(50% - 32px);
+    margin: 0 16px;
+  }
 }
 
 .item-img-wrapper {
@@ -443,16 +465,19 @@ form input[type='submit']:hover {
 .container {
   background-color: black;
 }
+
 .c2 {
   font-size: 15px "Monserat", sans-serif;
   padding: 32px 16px;
 }
+
 h1 {
   color: #ffff;
   font-family: "Monserrat", sans-serif;
   font-size: 36px;
   margin: 10px 0px;
 }
+
 .c2 p {
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -474,6 +499,7 @@ h1 {
   width: 15%;
   height: 45px;
 }
+
 .button1:hover {
   font-size: 15px;
   font-family: "Montserrat", sans-serif;
