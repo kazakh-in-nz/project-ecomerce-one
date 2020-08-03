@@ -226,60 +226,6 @@ footer p {
   margin-top: 0px;
 }
 
-/* ************************ */
-/* ********* media ******** */
-/* ************************ */
-
-@media only screen and (min-width: 601px) {
-  .new-arrival {
-    font-size: 64px;
-  }
-
-  .collection {
-    display: block;
-    font-size: 36px;
-    margin: 10px 0;
-  }
-}
-
-@media only screen and (min-width: 769px) {
-  .mobile-header {
-    display: none;
-    background-color: black;
-  }
-
-  .main-header {
-    padding-top: 0;
-  }
-
-  body {
-    display: flex;
-  }
-
-  #sidenav-id {
-    position: relative;
-    width: 250px !important;
-  }
-
-  .closebtn {
-    visibility: hidden;
-  }
-
-  .content-wrapper {
-    width: calc(100%-250px);
-  }
-}
-
-@media only screen and (min-width: 1201px) {
-  body {
-    justify-content: center;
-  }
-
-  .content-wrapper {
-    width: 950px;
-  }
-}
-
 /* Eliza's style */
 
 /* items */
@@ -320,13 +266,6 @@ footer p {
   padding: 0 8px 0 18px;
   background: black;
   color: white;
-}
-
-@media only screen and (max-width: 768px) {
-  .item {
-    flex: 0 1 calc(50% - 32px);
-    margin: 0 16px;
-  }
 }
 
 .item-img-wrapper {
@@ -376,6 +315,7 @@ footer p {
   padding: 68px 0px;
   background-color: #f1f1f1;
   display: flex;
+  flex-wrap: wrap;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -390,8 +330,22 @@ footer p {
   flex-direction: column;
   align-items: center;
   justify-items: flex-start;
-  width: calc(100% / 3);
   padding: 0px 10px;
+}
+
+.contact {
+  width: 100%;
+}
+
+.about-store-wrapper {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+}
+
+.store,
+.about {
+  width: calc(100% / 2);
 }
 
 .store {
@@ -525,4 +479,84 @@ h1 {
 .button1:hover {
   background-color: lightgrey;
   color: #000000;
+}
+
+/* ************************ */
+/* ********* media ******** */
+/* ************************ */
+
+@media only screen and (min-width: 601px) {
+  .new-arrival {
+    font-size: 64px;
+  }
+
+  .collection {
+    display: block;
+    font-size: 36px;
+    margin: 10px 0;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .mobile-header {
+    display: none;
+    background-color: black;
+  }
+
+  .main-header {
+    padding-top: 0;
+  }
+
+  body {
+    display: flex;
+  }
+
+  #sidenav-id {
+    position: relative;
+    width: 250px !important;
+  }
+
+  .closebtn {
+    visibility: hidden;
+  }
+
+  .content-wrapper {
+    width: calc(100%-250px);
+  }
+
+  .contact,
+  .about,
+  .store {
+    width: calc(100% / 3);
+  }
+
+  .contact-info {
+    flex-wrap: nowrap;
+  }
+
+  .contact {
+    width: calc(100% / 3);
+  }
+
+  .about-store-wrapper {
+    width: calc(100% * 2 / 3);
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (min-width: 1201px) {
+  body {
+    justify-content: center;
+  }
+
+  .content-wrapper {
+    width: 950px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .item {
+    flex: 0 1 calc(50% - 32px);
+    margin: 0 16px;
+  }
 }
